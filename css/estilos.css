@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(146deg, #FF9A00 23%, #751B75 74%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,7 +23,7 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+  background: linear-gradient(146deg, #751B75 23%, #000 74%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
@@ -33,10 +33,10 @@ h1 {
 }
 
 .tecla {
-  background-color: var(--branca);
+  background-color: #FF9A00;
   border-radius: 30px;
   box-shadow: 3px 3px 0 var(--cinza);
-  color: var(--vermelha);
+  color: var(--branca);
   cursor: pointer;
   height: 120px;
   font-size: 1.75em;
